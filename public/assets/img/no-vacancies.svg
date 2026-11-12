@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="t">
+  <title id="t">No vacancies illustration: an empty briefcase with a magnifying glass</title>
+  <circle cx="240" cy="184" r="150" fill="#e4f5f6"/>
+  <circle cx="92" cy="96" r="9" fill="#19b5c3" opacity=".5"/><circle cx="400" cy="120" r="6" fill="#0b2447" opacity=".35"/>
+  <circle cx="380" cy="60" r="12" fill="#19b5c3" opacity=".35"/><circle cx="70" cy="250" r="7" fill="#0b2447" opacity=".3"/>
+  <path d="M96 300h288" stroke="#cfe3e6" stroke-width="6" stroke-linecap="round"/>
+  <rect x="198" y="118" width="84" height="40" rx="12" fill="none" stroke="#0b2447" stroke-width="14"/>
+  <rect x="140" y="146" width="200" height="140" rx="18" fill="#0b2447"/>
+  <rect x="140" y="204" width="200" height="12" fill="#19b5c3"/>
+  <rect x="222" y="194" width="36" height="32" rx="6" fill="#ffffff" stroke="#19b5c3" stroke-width="5"/>
+  <path d="M154 172h172" stroke="#ffffff" stroke-opacity=".12" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="338" cy="248" r="48" fill="#ffffff" fill-opacity=".9" stroke="#19b5c3" stroke-width="13"/>
+  <path d="M372 284l44 44" stroke="#0b2447" stroke-width="16" stroke-linecap="round"/>
+  <path d="M322 236a16 16 0 1 1 22 15c-6 3-8 6-8 12" fill="none" stroke="#0b2447" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="336" cy="276" r="5.5" fill="#0b2447"/>
+</svg>
