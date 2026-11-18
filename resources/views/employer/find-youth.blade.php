@@ -13,18 +13,18 @@
 @endphp
 <form class="filter-bar" method="GET" action="{{ route('employer.find-youth') }}">
     <div class="row g-2 align-items-end">
-        <div class="col-md-3"><label class="form-label" for="name">1. Name (skilled workers)</label>
-            <input class="form-control" id="name" name="name" value="{{ request('name') }}" placeholder="e.g. Aisha"></div>
-        <div class="col-md-4"><label class="form-label" for="qualification">2. Qualifications (class of degree, former university, etc.)</label>
+        <div class="col-md-3"><label class="form-label" for="name">Name (skilled workers)</label>
+            <input class="form-control" id="name" name="name" value="{{ request('name') }}" placeholder="e.g. Richrd Ssevume"></div>
+        <div class="col-md-4"><label class="form-label" for="qualification">Qualifications (class of degree, former university, etc.)</label>
             <input class="form-control" id="qualification" name="qualification" list="qualList" value="{{ request('qualification') }}" placeholder="e.g. Bachelor's Degree, Makerere University" autocomplete="off">
             <datalist id="qualList">
                 @foreach($quals as $q)<option value="{{ $q }}">@endforeach
                 @foreach(['Makerere University','Kyambogo University','Mbarara University','Uganda Christian University','Ndejje University','Kampala International University','Uganda Martyrs University','Gulu University'] as $u)<option value="{{ $u }}">@endforeach
             </datalist></div>
         <div class="col-md-3"><label class="form-label" for="location">3. Location (area of residence)</label>
-            <input class="form-control" id="location" name="location" list="locList" value="{{ request('location') }}" placeholder="e.g. Kampala" autocomplete="off">
+            <input class="form-control" id="location" name="location" list="locList" value="{{ request('location') }}" placeholder="e.g. Kampala" autocomplete="on">
             <datalist id="locList">
-                @foreach(collect(['Kampala','Wakiso','Entebbe','Jinja','Mukono','Mbarara','Gulu','Masaka','Mbale','Fort Portal'])->merge($locations)->unique() as $l)<option value="{{ $l }}">@endforeach
+                @foreach(collect(['Kampala','Wakiso','Entebbe','Jinja','Mukono','Mbarara','Gulu','Masaka','Mbale','Fort Portal','Hoima','Mubende'])->merge($locations)->unique() as $l)<option value="{{ $l }}">@endforeach
             </datalist></div>
         <div class="col-md-2 d-grid"><button class="btn btn-teal"><i class="fa-solid fa-magnifying-glass"></i> Search</button></div>
     </div>
